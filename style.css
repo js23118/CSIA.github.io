@@ -1,0 +1,75 @@
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-size:cover;
+}
+
+  nav {
+    margin-top: none;
+    padding-top: none;
+    width: 100%;
+    height: 15vh;
+    z-index: 1;
+    position: fixed;
+    background: linear-gradient(to top, #ffffff00, #000000);
+  }
+
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 1vh 0 1vh 0;
+    }
+
+      nav ul li a {
+        float: left;
+        color: white;
+        text-align: center;
+        width: 25vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+        nav ul li:not(#page):hover {
+          transition: .7s;
+        }
+
+      nav #page {
+        color: #1E90FF;
+        background: #78b5f1;
+      }
+
+  section {
+    position: relative;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+    .txt {
+      border-radius: 2vh;
+      min-width: 40vh;
+      min-height: 20vh;
+      padding: 5vh;
+      display: inherit;
+      align-content: inherit;
+      backdrop-filter: blur(1vh) saturate(70%) brightness(0.8);
+    }
+
+      .txt h1 {
+        justify-self: center;
+      }
+
+    .product {
+      height: 12.5vh;
+      width: 20vw;
+    }

@@ -1,0 +1,42 @@
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  form#registrationForm {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  form#registrationForm label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  form#registrationForm input[type="text"],
+  form#registrationForm input[type="email"],
+  form#registrationForm input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form#registrationForm input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form#registrationForm input[type="submit"]:hover {
+    background-color: #45a049;
+  }
