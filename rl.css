@@ -17,6 +17,7 @@ h1 {
   
   form#registrationForm input[type="text"],
   form#registrationForm input[type="email"],
+  form#registrationForm input[type="tel"],
   form#registrationForm input[type="password"] {
     width: 100%;
     padding: 12px 20px;

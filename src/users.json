@@ -1,0 +1,23 @@
+{
+    "users": [
+     {
+      "userID": "23178",
+      "username": "jdyshin",
+      "password": "Skab2a!",
+      "name": "Jaden Shin",
+      "address": "212 West Greenway Bouldevard",
+      "email": "jdyshin@gmail.com",
+      "phoneNumber": "571-385-7232"
+     },
+     {
+      "userID": "58273",
+      "username": "rania",
+      "password": "Bab0l_",
+      "name": "Rani Alterazi",
+      "address": "212 West Greenway Bouldevard",
+      "email": "jdyshin@gmail.com",
+      "phoneNumber": "571-385-7232"
+     }
+    ]
+   }
+   
