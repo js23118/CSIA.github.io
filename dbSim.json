@@ -1,0 +1,25 @@
+{
+    "products": [
+     {
+      "ID": "0000001",
+      "Title": "long sleeve sweater",
+      "Description": "Men's large long sleeve sweater, GAP, barely used",
+      "User": "58273",
+      "Address": "212 West Greenway Boulevard"
+     },
+     {
+      "ID": "0000002",
+      "Title": "short sleeve t-shirt",
+      "Description": "Women's large short sleeve t-shirt, Polo, like-new",
+      "User": "58273",
+      "Address": "212 West Greenway Boulevard"
+     },
+     {
+      "ID": "0000003",
+      "Title": "long pants",
+      "Description": "Men's large long pants, Adidas, like-new",
+      "User": "23178",
+      "Address": "212 West Greenway Boulevard"
+     }
+    ]
+   }

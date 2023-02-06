@@ -7,7 +7,6 @@ h1 {
   form#registrationForm {
     width: 500px;
     margin: 0 auto;
-    text-align: left;
   }
   
   form#registrationForm label {
@@ -15,11 +14,18 @@ h1 {
     margin-bottom: 8px;
   }
   
-  form#registrationForm input[type="text"],
   form#registrationForm input[type="email"],
-  form#registrationForm input[type="tel"],
   form#registrationForm input[type="password"] {
     width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+
+  form#registrationForm input[type="text"] {
+    width: 49.5%;
     padding: 12px 20px;
     margin-bottom: 20px;
     box-sizing: border-box;
@@ -38,6 +44,6 @@ h1 {
     cursor: pointer;
   }
   
-  form#registrationForm input[type="submit"]:hover {
-    background-color: #45a049;
-  }
+    form#registrationForm input[type="submit"]:hover {
+      background-color: #45a049;
+    }
